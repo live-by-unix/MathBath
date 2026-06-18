@@ -1,0 +1,22 @@
+const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://db.com/logo_v2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>MathBath — Math Made Crystal Clear</title>
+    <meta name="description" content="Free step-by-step math explanations, solving methods, and practice exercises for TK–12. No ads, no data collection." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="MathBath — Math Made Crystal Clear" />
+    <meta property="og:description" content="Step-by-step solving methods for every math topic TK through 12th grade. Free and COPPA compliant." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
