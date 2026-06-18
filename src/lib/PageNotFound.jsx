@@ -1,5 +1,3 @@
-const db = globalThis. || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
-
 import { useLocation } from 'react-router-dom';
 
 import { useQuery } from '@tanstack/react-query';
