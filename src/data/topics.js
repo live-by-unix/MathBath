@@ -3,6 +3,10 @@ import { TOPICS_B } from './topics-b';
 import { TOPICS_C } from './topics-c';
 import { TOPICS_D } from './topics-d';
 import { TOPICS_E } from './topics-e';
+import { TOPICS_F } from './topics-f';
+import { TOPICS_G } from './topics-g';
+import { TOPICS_H } from './topics-h';
+import { TOPICS_I } from './topics-i';
 
 export const SUBJECTS = [
   { id: 'arithmetic', label: 'Arithmetic', emoji: '🔢', color: '#FF6B6B', description: 'Numbers, operations & place value' },
@@ -352,4 +356,8 @@ export const TOPICS = [
   ...TOPICS_C,
   ...TOPICS_D,
   ...TOPICS_E,
+  ...TOPICS_F,
+  ...TOPICS_G,
+  ...TOPICS_H,
+  ...TOPICS_I,
 ];
